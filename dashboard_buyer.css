@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+display: block;
+box-sizing: border-box;
+width: 1090px;
+height: 920px;
+margin: auto;
+padding:0;
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+table#Main-table{
+
+display: block;
+height: 100%;
+}
+table#view-all-table{
+
+	display: block;
+	margin-left: 23%;
+	margin-top: -5%;
+
+}
+table#left-table{
+
+display: block;
+background-color: #fbfcff;
+border-top-left-radius: 40px;
+}
+table#center-table{
+background-color: #fbfcff;
+display: block;
+margin-left:10px;
+}
+table#right-side-table{
+
+display:block;
+margin-left:10px;
+}
+table#right-side-3rd-table{
+	background-color: #fbfcff;
+	border-radius: 10px;
+	margin-top: 10%;
+	
+}
+table#sub-menu-table{
+	display: block;
+		
+}
+
+td#td_left-table1{
+	
+	text-align: center;
+	padding-top: 5%;
+}
+td#td_dashboard{
+	
+	text-align: left;
+	width: 150px;
+}
+td#td_inbox-label{
+	width:500px;
+	text-align: center;
+}
+a#maxwell-label{
+
+color: #05418a;
+font-family: Arial;
+font-weight: bolder;
+text-decoration: none;
+
+}
+a#maxwell-label:hover{
+	color: orange;
+}
+#td_left-table2{
+	
+}
+#maxwell-logo{
+	
+}
+img#img-profile{
+	margin-left:60%;
+	border-radius: 100%;
+}
+#td_img-profile{
+	padding-top: 20%;
+}
+table#sub-profile-table{
+	display:block;
+	border-bottom-width: 2px;
+	border-bottom-color: solid black 2px;
+	margin-top: -800px;
+	
+	}
+table#dashboard-subtable{
+	
+	display:relative;
+	margin: auto;
+	margin-top: -750px;
+	margin-left:255px;
+	
+}
+table#table-project{
+	border-bottom:solid gray 2px;
+	display: relative;
+}
+
+#td-profile-name{
+	
+	width: 230px;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+#td-career-title{
+	
+	width: 230px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+#td-level{
+	width: 230px;
+	text-align: center;
+}
+a#profile-name{
+
+	font-family: Arial;
+	font-weight: bold;
+	color: #c87144;
+	text-decoration: none;
+	font-size: 22px;
+}
+a#profile-name:hover{
+	color:orange;
+}
+label#career-label{
+	
+	font-family: Arial;
+	color: #04428b;
+	font-size: 18px;
+}
+label#label-dashboard{
+	color: #04428b;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+td#td-menu{
+	
+	width: 230px;
+	text-align: center;
+	padding-bottom: 10%;
+}
+td#td-account-menu{
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+label#menu-label{
+color: #04428b;
+font-weight: bold;
+font-size: 24px;
+font-family: arial;
+
+}
+a#a_menu-account-text{
+color: #129be1;
+font-weight: bold;
+font-size: 20px;
+font-family: arial;
+text-decoration: none;
+
+}
+a#a_menu-account-text2{
+color:orange;
+font-weight: bold;
+font-size: 20px;
+font-family: arial;
+text-decoration: none;
+
+}
+a#a_menu-account-text2:hover{
+	color: #B8860B;
+}
+a#a_menu-account-text:hover{
+	color: orange;
+}
+td#td_project{
+	text-align: left;
+	
+	padding-right: 50px;
+}
+td#td_chk-green{
+	text-align: center;
+}
+td#td_likes{
+	padding-right: 50px;
+	
+}
+label#label-project{
+	font-weight: bold;
+	color: #a09f9d;
+	font-size: 18px;
+
+}
+img#chk-img-green{
+	background-color: green;
+	border-radius: 50%;
+}
+img#like-img1{
+	background-color: #71bdb9;
+	border-radius: 50%;
+}
+img#dislike-img{
+	background-color: #71bdb9;
+	border-radius: 50%;
+}
+td#txt_num{
+	text-align: left;
+	padding-top: 5px;
+	font-family:arial;
+}
+label#label-num{
+	font-weight: bolder;
+	font-size: 24px;
+}
+td#td_optimize{
+
+width: 250px;
+}
+label#label-optimize{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: arial;
+
+}
+label#label-optimize2{
+	font-weight: bold;
+	font-size: 18px;
+	color: #56a700;
+	
+}
+
+table#graph-table{
+	display: relative;
+	margin: auto;
+	border-radius:10px;
+	margin-top: 5%;
+	margin-left:255px;
+	background-color: #fbfcff; 
+}
+
+table#graph-table2{
+	display: block;
+	margin: auto;
+	border-radius:10px;
+	margin-left:255px; 
+	background-color: #fbfcff;
+
+}
+
+
+table#sub-right-side-table{
+	
+	display: relative;
+	border-radius:10px;
+	background-image: url("img/ticket-apply.png");
+}
+td#td_market_status{
+	text-align: right;
+	padding: 10%;
+}
+
+
+label#label-message{
+	font-size: 22px;
+	font-weight: bold;
+	font-family: arial;
+}
+label#label-inbox{
+	margin-left: 45%;
+}
+label#label-market-status{
+	font-weight: bolder;
+	font-family: arial;
+}
+label#card-label{
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: arial;
+}
+label#label-inbox{
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: arial;
+}
+label#chance-label{
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+a#a_card-dislike{
+	color: red;
+	text-decoration: none;
+}
+a#a_card-dislike:hover{
+	color: orange;
+}
+a#a-label-message{
+color: gray;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: arial;
+	text-decoration: none;
+}
+
+a#a_card-second-chance{
+	text-decoration: none;
+	color: red;
+	font-size:12px;
+
+}
+a#a_5{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+	color: white;
+	background-image: url("img/blue-circle.png");
+	background-size: 25px;
+	padding: 10px;
+	background-position: center; 
+	background-repeat: no-repeat;
+	
+
+}
+a#a_card-second-chance:hover{
+	color: orange;
+}
+button#card-btn{
+	width: 50px;
+	height:50px;
+	font-size: 14px;
+	background-color: #f99f87;
+	border-style: none;
+	border-radius: 50px;
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+	margin-left: -80px;
+}
+button#card-btn:hover{
+	background-color:#5eac00;
+}
+label#label-position{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+table#right-position-table{
+	display: flex;
+}
+table#navigation-table{
+
+	margin-top: -25px;
+}
+
+a#a_software{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+	color:black;
+	font-size:14px;
+}
+a#a_software:hover{
+	color:orange;
+}
+a#a-view-all{
+	text-decoration: none;
+	font-weight: bold;
+	color:black;
+	font-size: 12px;
+}
+a#a-view-all:hover{
+	color:orange;
+}
+
+label#label-java{
+	color:#a60100;
+	font-weight: bold;
+}
+label#label-utility{
+	color:#f7b219;
+	font-weight: bold;
+}
+label#label-spy{
+	color:#56a700;
+	font-weight: bold;
+	font-family: arial;
+}
+label#label-position1{
+	color: gray;
+	font-weight: bold;
+}
+td#td_market-overfilled{
+text-align: center;
+}
+td#td_inbox-label{}
+label#label-market-overfilled{
+	color: #ef5742;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: arial;
+}
+
+img#img-arrow{
+	margin-bottom: 8%;
+}
+
+a#a_open_market{
+	
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	background-color: #3365a2;
+	padding: 10px;
+	border-radius: 40px;
+}
+a#a_open_market:hover{
+	background-color:#15317E;
+}
+label#label-brand-logo{
+	color:#55a600;
+	font-weight: bolder;
+}
+

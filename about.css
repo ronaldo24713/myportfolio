@@ -1,0 +1,294 @@
+*{
+
+	margin:0;
+	padding: 0;
+}
+body{
+display:block;
+margin-top: 5%;	
+margin-bottom:5%;
+margin:auto;
+box-sizing: border-box;
+background-color:#fbfcff;
+}
+
+a#a1{
+text-align: center;
+text-decoration:none;
+color: #04428b;
+font-weight:bold;
+}
+a#a1:hover{
+color:orange;
+}
+
+img#img1{
+	display:relative;
+}
+td#tdimg{
+text-align:center;
+}
+
+td{
+	font-size: 24px;
+	font-weight: bold;
+}
+td#td1{
+	width: 20%;
+	text-align:left;
+	}
+	
+	td#main-table-data1{
+		text-align: center;
+		
+		width: 100%;
+	}
+	td#main-table-data2{
+		text-align: center;
+		
+		width: 100%;
+	}
+
+
+table#navigation-table td#td2{
+		text-align: center;
+	}
+
+table#main-table{
+	display:inline-table;
+	background-color:#fbfcff;
+	margin:auto;
+}
+
+table#main-table-t1{
+	display:block;
+	text-align: left;
+	margin-top: -15%;
+}
+table#main-table-t1 td#td-th2 p#p-text{
+	display: block;
+	text-align: left;
+	color: black;
+	font-size:28px;
+	font-family: arial;
+	font-style: normal;
+	font-weight: bold;
+}
+table#main-table-t1 td#td-th2{
+	position: absolute;
+	text-align: left;
+}
+
+table#main-subtable{
+	display: block;
+}
+
+table#banner-table{
+	display: relative;
+	background-image: url('img/about-banner.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+}
+table#banner-table td#banner-text{
+	text-align: center;
+
+}
+table#banner-table p#p-text-banner{
+	color: #f2e906;
+	font-weight: bold;
+	font-size: 32px;
+}
+table#table-footer{
+background-color: #04428b;	
+display: relative;
+margin-top: 5%;
+
+}
+div#div-banner{
+	display: block;
+}
+div#div-banner-header{
+	display: block;
+}
+td#td-textlabel{
+	text-align: center;
+	width: 100%;
+}
+header{
+	color: white;
+	font-size: 48px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+form#f1{
+	display:block;
+	margin: auto;
+}
+
+td#td-data{
+
+text-align:right;
+padding-right: 5%;
+}
+td#td-data a#ahome{
+color: #04428b;
+text-decoration:none;
+}
+td#td-data a#ahome:hover{
+color:orange;
+}
+
+td#td-data a#about{
+color: #04428b;
+
+text-decoration:none;
+}
+td#td-data a#about:hover{
+color:orange;
+}
+td#td-data a#alogin{
+color: #04428b;
+text-decoration:none;
+background-color:#f2e908;
+padding:6px;
+padding-left: 20px;
+padding-right:20px;
+border-radius:100px;
+
+}
+td#td-data a#alogin:hover{
+background-color:#C8B560;
+}
+a#a2{
+	margin-left:-50%;
+}
+
+table#navigation-table{
+display:relative;	
+text-align: center;
+}
+
+table#t2{
+display:relative;	
+margin-top: 2%;
+}
+
+
+table#table-footer{
+display:relative;
+background-color:#04428b;
+}
+
+table#table-footer2{
+background-color:#04428b;
+margin-top:5%; 
+}
+a#a-careers{
+color:white;
+font-weight:bold;
+text-decoration:none;
+}
+a#a-careers:hover{
+color:orange;
+}
+
+a#a-support{
+color:white;
+font-weight:bold;
+text-decoration:none;
+}
+a#a-support:hover{
+color:orange;
+}
+a#a-contact{
+color:white;
+font-weight:bold;
+text-decoration:none;
+
+}
+a#a-contact:hover{
+color:orange;
+}
+td#td-careers{
+text-align:center;
+}
+td#td-support{
+text-align:center;
+}
+td#td-contact{
+text-align:center;
+}
+td#td-illustration1{
+text-align:center;
+}
+
+td#td-btn{
+	
+	text-align: center;
+
+}
+fieldset#fieldset1{
+background-color:#04428b;
+border-style:none;
+margin-top:-10%;
+display: relative;
+
+}
+button#btn1{
+	border-radius:100%;
+	border-style: none;
+	margin-left: -150%;
+	width: 40px;
+	margin-top: 10%;
+	height: 40px;
+	text-align: center;
+	background-image: url('img/button-icon.png');
+	background-repeat: no-repeat;
+	background-size: 16px;
+	background-position: center;
+}
+input#query{
+	border-radius: 50px;
+	background-color:#04428b;
+	color:white;
+	width: 350px;
+	height: 40px;
+	font-size: 16px;
+	text-align:center;
+	margin:auto;
+	font-weight:bold;
+
+}
+table#navigation-table td#td2{
+		text-align: right;
+	}
+label#label-text{
+	color: #0585ce;
+	font-weight: bolder;
+	font-size: 48px;
+	
+}
+img#main-body-img{
+	
+	margin-top: -50%;
+}
+
+table#table-social-media-icon{
+display: relative;
+margin: auto;
+
+}
+#btn-insta{
+background-color:transparent;
+border-style:none;
+
+}
+#btn-twitter{
+background-color:transparent;
+border-style:none;
+}
+::placeholder{
+	text-align: left;
+}

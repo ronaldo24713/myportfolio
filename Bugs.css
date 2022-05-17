@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+display: block;
+box-sizing: border-box;
+width: 1090px;
+height: 920px;
+margin: auto;
+padding:0;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+table#Main-table{
+display: block;
+height: 100%;
+}
+
+table#left-table{
+display: block;
+background-color: #fbfcff;
+border-top-left-radius: 40px;
+}
+
+table#center-table{
+display: block;
+margin-left:10px;
+}
+
+table#center-table div#div-report{
+	background-color: #119ae2;
+	border-radius: 10px;
+	width: 250px;
+	height: 80px;
+	margin-left: 10%;
+
+}
+
+table#center-table div#div-report1{
+	background-color: #119ae2;
+	border-radius: 10px;
+	width: 250px;
+	height: 80px;
+	margin-left: 15%;
+
+}
+
+table#center-table div#div-report2{
+	background-color: #ffc543;
+	border-radius: 10px;
+	width: 250px;
+	height: 80px;
+	margin-left: 10%;
+
+}
+table#center-table td#td-bug-report div#div-report ul#ul-bugreport{
+	width: 35px;
+	padding: 5px;
+	display: block;
+	margin-left: 5%;
+	border-radius: 5px;
+	list-style-type: none;
+	background-color: white;
+}
+
+table#center-table td#td-bug-report div#div-report1 ul#ul-bugreport{
+	width: 35px;
+	padding: 5px;
+	display: block;
+	margin-left: 5%;
+	border-radius: 5px;
+	list-style-type: none;
+	background-color: white;
+}
+
+table#center-table td#td-bug-report div#div-report2 ul#ul-bugreport{
+	width: 35px;
+	padding: 5px;
+	display: block;
+	margin-left: 5%;
+	border-radius: 5px;
+	list-style-type: none;
+	background-color: white;
+}
+table#center-table td#td-bug-report{
+	width: 350px;
+	height: 80px;
+}
+
+table#center-table td#td-bug-report div#div-report ul#ul-bugreport li#li-bug-report{
+	background-color: #119ae2;
+	height: 5px;
+	margin: 5px;
+}
+
+table#center-table td#td-bug-report div#div-report1 ul#ul-bugreport li#li-bug-report{
+	background-color: #119ae2;
+	height: 5px;
+	margin: 5px;
+}
+
+table#center-table td#td-bug-report div#div-report2 ul#ul-bugreport li#li-bug-report{
+	background-color: #ffc543;
+	height: 5px;
+	margin: 5px;
+
+}
+
+img#bug-icon{
+	background-color: white;
+	padding: 2px;
+	border-radius: 10px;
+	margin-top: -15%;
+	margin-left: 35px;
+}
+
+p#p-text{
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: -30%;
+}
+
+ a#a-date{
+	
+	text-decoration: none;
+	color: white;
+	margin-left: 32%;
+}
+
+table#sub-menu-table{
+	display: block;
+	margin-top: -10%;
+}
+
+img#img-profile{
+	margin-left:60%;
+	border-radius: 100%;
+}
+#td_img-profile{
+	padding-top: 20%;
+}
+table#sub-profile-table{
+	display:block;
+	border-bottom-width: 2px;
+	margin-top: -725px;
+	}
+form#body-form{
+	width: 1090px;
+	height: 920px;
+}
+
+#td-profile-name{
+	width: 230px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+#td-career-title{
+	width: 230px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+a#profile-name{
+	font-family: Arial;
+	font-weight: bold;
+	color: #c87144;
+	text-decoration: none;
+	font-size: 22px;
+}
+a#profile-name:hover{
+	color:orange;
+}
+label#career-label{
+	
+	font-family: Arial;
+	color: #04428b;
+	font-size: 18px;
+}
+
+table#sub-profile-table td#td-line-img{
+	padding-top: 25%;
+}
+td#td-menu{
+	width: 230px;
+	text-align: center;
+	padding-bottom: 10%;
+}
+td#td-account-menu{
+	text-align: left;
+	padding-bottom: 5%;
+	padding-left: 10%;
+}
+
+label#menu-label{
+color: #04428b;
+font-weight: bold;
+font-size: 24px;
+font-family: arial;
+
+}
+a#a_menu-account-text{
+color: #129be1;
+font-weight: bold;
+font-size: 20px;
+font-family: arial;
+text-decoration: none;
+
+}
+a#a-bug-report{
+	color: white;
+	font-size: 16px;
+	font-family: arial;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+
+a#a_menu-bug-text{
+color: #f3b417;
+font-weight: bold;
+font-size: 20px;
+font-family: arial;
+text-decoration: none;
+}
+a#a_menu-bug-text:hover{
+	color: orange;
+}
+a#a_menu-account-text2:hover{
+	color: #B8860B;
+}
+a#a_menu-account-text:hover{
+	color: orange;
+}
+
+button#close-btn{
+	color: white;
+	border-radius: 100px;
+	background-color: #119ae2;
+	border-style: none;
+	text-align: center;
+	height: 35px;
+	padding: 5px;
+	width: 100px;
+	font-size: 14px;
+}
+
+
+
